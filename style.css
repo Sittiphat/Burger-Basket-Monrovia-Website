@@ -1,0 +1,53 @@
+.menu_img {
+  width: 75%;
+  height: auto;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* body{ background:black !important;} */
+/* body {
+  background: url('https://image.freepik.com/free-photo/background-blurry-restaurant-shop-interior_1203-4031.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover; */
+/* h1, h2, h3, h4, h5, p {
+    text-shadow: 1px 1px 1px #ccc;
+} */
