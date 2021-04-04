@@ -5,137 +5,51 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <title>Burger Basket Online Ordering</title>
+  <title>Submission Success</title>
 </head>
 
 <body>
   <section id="overlay">
-    <a href="./index.html"><img class="rounded mx-auto d-block" width="150" height="150" src="./img/logo.png" alt="Burger Basket Logo" id="logo"></a>
-    <hr>
-    <form action="submission.html" method="GET">
-      <h1>SPECIALS!</h1>
-
-      <section class="specials">
-        <input type="checkbox" name="special" id="1" value="1">
-        <label for="1">#1</label>
-        <input type="checkbox" name="special" id="2" value="2">
-        <label for="2">#2</label>
-        <input type="checkbox" name="special" id="3" value="3">
-        <label for="3">#3</label>
-        <input type="checkbox" name="special" id="4" value="4">
-        <label for="4">#4</label>
-        <input type="checkbox" name="special" id="5" value="5">
-        <label for="5">#5</label>
-        <input type="checkbox" name="special" id="6" value="6">
-        <label for="6">#6</label>
-        <input type="checkbox" name="special" id="7" value="7">
-        <label for="7">#7</label>
-      </section>
-      <hr>
-      <h1>Create your burger!</h1>
-      <section class="protein">
-        <label for="patty">What type of protein would you like?</label>
-        <select name="patty" id="patty">
-          <option value="beef">Beef</option>
-          <option value="chicken">Chicken</option>
-          <option value="pastrami">Pastrami</option>
-          <option value="steak">Steak</option>
-        </select>
-      </section>
-      <hr>
-
-      <section class="patties">
-        <label for="amount">How many patties would you like?</label>
-        <input type="number" name="patty_amount" id="amount" min=0>
-      </section>
-      <hr>
-
-      <section class="cooked">
-        <label for="doneness">How do you want your patty cooked</label>
+    <!-- <img class="img-thumbnail .center-block" src="./img/submission_pic.png"> -->
+    <img src="./img/submission_pic.png" class="mx-auto d-block" />
+    <br>
+    <br>
+    <br>
+    <h3 class="text-center">Sorry! Online ordering has not yet been integrated on this website. Please visit one of our partner delivery services below ⬇️</h3>
+    <br>
+    <br>
+    <div class="d-flex justify-content-center">
+      <a class="btn btn-success" role="button" href="./index.html">
+        Back to Homescreen
+      </a>
+    </div>
         <br>
-        <span>Rare</span>
-        <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-        <span>Well-Done</span>
-      </section>
-      <hr>
-
-      <section class="toppings">
-        <span>What toppings would you like?</span>
-        <br>
-        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-        <label for="lettuce">Lettuce</label>
-        <input type="checkbox" name="topping" id="tomato" value="tomato">
-        <label for="tomato">Tomato</label>
-        <input type="checkbox" name="topping" id="onion" value="onion">
-        <label for="onion">Onion</label>
-        <input type="checkbox" name="topping" id="grilled" value="grilled">
-        <label for="onion">Grilled Onions</label>
-        <input type="checkbox" name="topping" id="pickels" value="pickels">
-        <label for="onion">Pickels</label>
-      </section>
-      <hr>
-
-      <section class="cheesy">
-        <span>Would you like to add cheese?</span>
-        <br>
-        <input type="radio" name="cheese" id="yes" value="yes">
-        <label for="yes">Yes</label>
-        <input type="radio" name="cheese" id="no" value="no">
-        <label for="no">No</label>
-      </section>
-      <section class="patties">
-        <label for="amount">How many?</label>
-        <input type="number" name="amount" id="amount">
-      </section>
-
-      <hr>
-
-      <section class="bun-type">
-        <label for="bun">What type of bun would you like?</label>
-        <select name="bun" id="bun">
-          <option value="sesame">Burger Bun</option>
-          <option value="potatoe">Pastrami Bun</option>
-          <option value="pretzel">Special Bun</option>
-        </select>
-      </section>
-      <hr>
-
-      <section class="sauce-selection">
-        <label for="sauce">What type of sauce would you like?</label>
-        <input list="sauces" id="sauce" name="sauce">
-        <datalist id="sauces">
-          <option value="ketchup"></option>
-          <option value="mayo"></option>
-          <option value="mustard"></option>
-          <option value="secret sauce"></option>
-          <option value="special hot sauce"></option>
-        </datalist>
-      </section>
-      <hr>
-      <section class="extra-info">
-        <label for="extra">Any special requests?</label>
-        <br>
-        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
-      </section>
-      <hr>
-      <section class="dine-in/takout">
-        <input type="radio" name="dine-in" id="dine-in" value="dine-in">
-        <label for="dine-in">Dine-in</label>
-        <input type="radio" name="takeout" id="takeout" value="takeout">
-        <label for="takeout">Takeout</label>
-      </section>
-      <hr>
-      <section class="submission">
-        <input type="submit" value="Submit">
-        <br>
-        <!-- This is where the scroll box is at -->
-        <div class="pull-right overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light" style="max-width: 260px; max-height: 100px;">Thank you for choosing online ordering
-          if you would like to go back to the homepage please click the logo above. Remember that all submissions are final and processed right away so please double check your order before submission.
-        </div>
-      </section>
-    </form>
+        <ul class="list-group">
+          <li class="list-group-item text-center"><a class="btn btn-danger" role="button"
+              href="https://www.doordash.com/business/666264/?utm_source=partner-link&utm_medium=website&utm_campaign=666264">
+              Doordash
+            </a></button></li>
+          <li class="list-group-item text-center"><a class="btn btn-dark" role="button"
+              href="https://order.ubereats.com/los-angeles/food-delivery/Burger%20Basket/HKWTRp5oTSOmYZh0is0GAA/?utm_source=web-restaurant-manager">
+              Uber Eats
+            </a></button></li>
+          <li class="list-group-item text-center"><a class="btn btn-danger" role="button"
+              href="http://menus.fyi/2548924">
+              Grubhub
+            </a></button></li>
+          <li class="list-group-item text-center"><a class="btn btn-secondary" role="button"
+              href="https://postmates.com/merchant/burger-basket-monrovia">
+              Postmates
+            </a></button></li>
+        </ul>
+    <br>
+    <p><span id="res-span"></span></p>
+    <p><span id="res-span2"></span></p>
+    <img class="rounded mx-auto d-block" src="./img/hold_burger.jpg">
   </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="app.js">
+
+  </script>
 </body>
 
 </html>
