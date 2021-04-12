@@ -7,4 +7,4 @@
  **ATTENTION**
  
 This code is the orginal V1 version of the Burger Basket Monrovia website.
-To view the new updated version 2 code that is currently, please visit: [github.com/Sittiphat/Burger-Basket-Monrovia-Website-V2](https://github.com/Sittiphat/Burger-Basket-Monrovia-Website-V2)
+To view the new updated version 2 code that is currently deployed, please visit: [github.com/Sittiphat/Burger-Basket-Monrovia-Website-V2](https://github.com/Sittiphat/Burger-Basket-Monrovia-Website-V2)
